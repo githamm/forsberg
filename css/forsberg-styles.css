@@ -114,6 +114,15 @@
             font-weight: 800;
             letter-spacing: .1em;
             color: rgba(153, 0, 18, .8);
+            margin-bottom: 2px;
+        }
+
+        h5.asset-headline {
+            font-family: "Open Sans", Arial, sans-serif;
+            font-size: 20px;
+            font-weight: 800;
+            letter-spacing: .1em;
+            color: rgba(0, 0, 0, .5);
         }
 
         h5.breakout-box-headline {
