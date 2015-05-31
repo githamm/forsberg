@@ -296,7 +296,7 @@
         .breakout-box {
             background-color: rgba(192, 192, 192, .1);
             padding: 50px 50px 50px 50px;
-            margin: 0px -75px 0px 10px;
+            margin: 0px 0px 0px 10px;
         }
 
         .clearing-blackout ul {display:none !important;}
