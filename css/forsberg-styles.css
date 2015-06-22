@@ -133,7 +133,7 @@ p {
 p.byline {
     font-family: "Open Sans", Arial, sans-serif;
     font-size: 14px;
-    font-weight: 500;
+    font-weight: 700;
     letter-spacing: .1em;
     color: rgba(153, 0, 18, .7);
     margin-bottom: 5px;
@@ -145,6 +145,23 @@ p.date {
     letter-spacing: .1em;
     color: rgba(34, 34, 34, .8);
     margin: 20px 0 -10px 0;
+}
+h3.chapter-break {
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: .2em;
+    color: rgba(34, 34, 34, .4);
+    margin: 50px 0 -5px 0;
+    text-align: center;    
+}
+
+h2.chapter-hed {
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 54px;
+    margin: 44px 0 54px 0;
 }
 p.cutline {
     font-family: "Open Sans", Arial, sans-serif;
