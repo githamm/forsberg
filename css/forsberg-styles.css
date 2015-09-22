@@ -102,6 +102,7 @@ h5.asset-headline {
     font-weight: 800;
     letter-spacing: .1em;
     color: rgba(0, 0, 0, .5);
+    margin-top: 25px;
 }
 h5.breakout-box-headline {
     font-family: "Open Sans", Arial, sans-serif;
@@ -127,7 +128,7 @@ p {
     font-size: 19px;
     color: rgba(34, 34, 34, .8);
     /* letter-spacing: .01em; */
-    
+
     line-height: 1.50em;
 }
 p.byline {
@@ -153,7 +154,7 @@ h3.chapter-break {
     letter-spacing: .2em;
     color: rgba(34, 34, 34, .4);
     margin: 50px 0 -5px 0;
-    text-align: center;    
+    text-align: center;
 }
 
 h2.chapter-hed {
@@ -162,6 +163,14 @@ h2.chapter-hed {
     font-weight: 600;
     line-height: 62px;
     margin: 44px 0 54px 0;
+}
+h3.chapter-subhed {
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 30px;
+    margin-bottom: 60px;
+    margin-top: -33px;
 }
 p.cutline {
     font-family: "Open Sans", Arial, sans-serif;
@@ -220,6 +229,25 @@ cite {
 @media screen and (max-width: 500px) {
     #mobile-image {
         display: none !important;
+    }
+}
+@media screen and (max-width: 500px) {
+    h2.chapter-hed {
+        font-family: "Open Sans", Arial, sans-serif;
+        font-size: 40px;
+        font-weight: 600;
+        line-height: 44px;
+        margin: 44px 0 54px 0;
+    }
+}
+@media screen and (max-width: 500px) {
+    h3.chapter-subhed {
+        font-family: "Open Sans", Arial, sans-serif;
+        font-size: 25px;
+        font-weight: 300;
+        line-height: 30px;
+        margin-bottom: 60px;
+        margin-top: -35px;
     }
 }
 hr.panel-hr {
