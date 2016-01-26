@@ -116,7 +116,10 @@ function playerCreator(embedId, playerId, divId) {
     if (divId) {
         $(divId).animate({backgroundColor:'rgba(0,70,70,0.3)',paddingLeft:'.5em',paddingRight:'.5em'}, 350).delay(2000).animate({backgroundColor:'transparent',paddingLeft:'0',paddingRight:'0'},1000);
     }
-    OO.Player.create(embedId, playerId, {'autoplay':true});
+    $('#' + embedId).html('<video id="'+embedId+'player" preload controls autoplay> \n\
+        <source src="./video/'+playerId+'.mp4" /> \n\
+        <source src="./video/'+playerId+'.webm" /> \n\
+    </video>');
 }
 
 function playerScroller(embedId, playerId, divId) {

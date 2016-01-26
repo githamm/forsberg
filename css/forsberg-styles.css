@@ -376,6 +376,9 @@ section.inset.left a.expandme:after {
     background-position: center center;
     display: block;
 }
+.vid-embed video {
+    width:100%;
+}
 .vid-embed .innerWrapper {
     height: 100%;
 }
